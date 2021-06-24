@@ -26,11 +26,17 @@ public class multiArrays{
         sum = 0;
         
        */
+<<<<<<< HEAD
         int iter = 0;
         int totRowSum [] = new int[myArray.length];
         int totColSum [] = new int[myArray[0].length];
         int totAvg [] = new int [myArray.length + myArray[0].length];
         int length [] = new int[myArray.length + myArray[0].length];
+=======
+        int totRowSum [] = new int[myArray.length];
+        int totColSum [] = new int[myArray[0].length];
+        int totAvg [] = new int [myArray.length + myArray[0].length];
+>>>>>>> bcd253972e8252533fa2b4ea00c73e06b75e1042
         
         
         
@@ -102,7 +108,10 @@ public class multiArrays{
     	
     	return sum / length;
     }
+<<<<<<< HEAD
     public static int min(int array[]){
         int temp = MAX_INT(); 
     }
+=======
+>>>>>>> bcd253972e8252533fa2b4ea00c73e06b75e1042
 }
